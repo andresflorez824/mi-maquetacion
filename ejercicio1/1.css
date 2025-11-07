@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    width: 600px;
+    height: 250px;
+    border: 1px solid #5a78f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    position: relative;
+}
+
+.punto {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 56%;
+    left: 56%;
+    transform: translate(-40%, -30%);
+}
