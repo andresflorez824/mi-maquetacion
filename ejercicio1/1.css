@@ -31,3 +31,23 @@ body {
     left: 56%;
     transform: translate(-40%, -30%);
 }
+
+.contenedor {
+    width: 600px;
+    height: 250px;
+    border: 1px solid #5a78f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* importante para posicionar dentro */
+}
+
+.contenedor a {
+    position: absolute;
+    top: -200px; /* lo sube arriba del rectángulo */
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
